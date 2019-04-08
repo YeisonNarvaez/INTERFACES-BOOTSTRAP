@@ -1,0 +1,185 @@
+body{
+	background: #fafafa;
+}
+
+.navbar{
+	min-height: 33px;
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.navbar-nav > li > a, .navbar-brand{
+	padding-top: 6px;
+	padding-bottom: 0;
+	height: 33px;
+}
+
+/*TWBS COLOR*/
+.navbar-default {
+  background-color: #2082a5;
+  border-color: #71b3d8;
+}
+.navbar-default .navbar-brand {
+  color: #cedbd4;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #524d4b;
+}
+.navbar-default .navbar-text {
+  color: #cedbd4;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #cedbd4;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #524d4b;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #524d4b;
+  background-color: #71b3d8;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #524d4b;
+  background-color: #71b3d8;
+}
+.navbar-default .navbar-toggle {
+  border-color: #71b3d8;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #71b3d8;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #cedbd4;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #cedbd4;
+}
+.navbar-default .navbar-link {
+  color: #cedbd4;
+}
+.navbar-default .navbar-link:hover {
+  color: #524d4b;
+}
+
+/*estilos peonalizados*/
+#header{
+	background: #282828;
+	color: #fff;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}
+
+#header .crear{
+	padding-top: 20px;
+}
+
+.color-principal, .panel-default > .panel-heading{
+	background-color: #2082a5 !important;
+	border-color: #2082a5 !important;
+	color: #fff !important;
+}
+
+
+.barra-progreso{
+	background: #333333;
+	color: #fff;
+}
+
+footer{
+	background: #282828;
+	color: #fff;
+	text-align: center;
+	padding: 30px;
+	margin-top: 30px;
+
+}
+
+/*loginn*/
+#Contenedor{
+	width: 400px;
+	margin: 50px auto;
+	background-color: #F3EDED;
+        border: 1px solid #ECE8E8;
+	height: 400px;
+	border-radius:8px;
+	padding: 0px 9px 0px 9px;
+}
+ 
+/**
+ * Aplicando al icono de usuario el color de fondo,
+ * rellenado de 20px y un redondeado de 120px en forma
+ * de un circulo
+ */
+.Icon span{
+      background: #A8A6A6;
+      padding: 20px;
+      border-radius: 120px;
+}
+/**
+ * Se aplica al contenedor madre un margen de tamaño 10px hacia la cabecera y pie,
+ * color de fuente blanco,un tamaño de fuente 50px y texto centrado.
+ */
+.Icon{
+     margin-top: 10px;
+     margin-bottom:10px; 
+     color: #FFF;
+     font-size: 50px;
+     text-align: center;
+}
+/**
+ * Se aplica al contenedor donde muestra en el pie
+ * la opción de olvidaste tu contraseña?
+ */
+.opcioncontra{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 14px;
+}
+ 
+/**
+ * En las siguientes lineas
+ * se define el diseño adaptable, para que
+ * se muestre en los dispositivos móviles
+ */
+ 
+/******************************************/
+/***    DISEÑO PARA MOVILES 320        ****/
+/******************************************/
+@media only screen and (max-width:320px){
+#Contenedor{
+	width: 100%;
+	height: auto;
+	margin: 0px;
+}
+ 
+/******************************************/
+/***    DISEÑO PARA MOVILES 240        ****/
+/******************************************/
+@media only screen and (max-width:240px){
+	
+}
+
+/*DE COLOR DE MENU*/
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #cedbd4;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #524d4b;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #524d4b;
+    background-color: #71b3d8;
+  }
+}
